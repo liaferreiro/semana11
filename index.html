@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> A mano </title>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+  <link rel="stylesheet" type="text/css" href="css/style.css"/>
+  <link rel="icon" href="images/icon.png" type="image/gif" sizes="12x12">
+  <link href="https://fonts.googleapis.com/css?family=Patrick+Hand" rel="stylesheet">
+  <script src="https://use.fontawesome.com/5b4c8081e2.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+
+<body>
+
+<div class="logo">
+
+<img src="images/logo.png">
+
+</div>
+
+
+<nav class="navbar navbar-expand-md">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Tienda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Clases</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contacto</a>
+          </li>
+          
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Buscar" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+        </form>
+      </div>
+</nav>
+
+    <main role="main">
+
+     
+<div class="jumbotron">
+
+<div class="w3-content w3-section">
+  <img class="mySlides" src="images/fondo3.png" style="width:100%">
+  <img class="mySlides" src="images/fondo1.png" style="width:100%">
+  <img class="mySlides" src="images/fondo2.png" style="width:100%">
+
+</div>
+</div>
+
+
+
+
+
+<div class="container">
+
+        <div class="row">
+          <div class="col-md-12">
+          <h1>TIENDA</h1>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4">
+            <h2> Materiales </h2>
+            <img src="images/foto1.jpg">
+            <p><a class="btn btn-secondary" id="uno" href="#" role="button"> Comprar </a></p>
+
+        </div>
+
+        <div class="col-md-4">
+            <h2> Bordados </h2>
+             <img src="images/foto2.jpg">
+            <p><a class="btn btn-secondary" id="dos" href="#" role="button"> Comprar </a></p>
+        </div>
+
+        <div class="col-md-4">
+            <h2> Personalizados </h2>
+             <img src="images/foto3.jpg">
+            <p><a class="btn btn-secondary" id="tres" href="#" role="button"> Comprar </a></p>
+        </div>
+
+</div>
+
+        <hr>
+
+      </div> <!-- /container -->
+
+    </main>
+
+    <footer class="containerdos">
+      <div class="botones">
+         <a href="#" class="fa fa-facebook"></a>
+         <a href="#" class="fa fa-twitter"></a>
+         <a href="#" class="fa fa-instagram"></a>
+         <a href="#" class="fa fa-youtube"></a>
+        
+      </div>
+      <p>&copy; A mano 2017</p>
+    </footer>
+
+
+<script type="text/javascript">
+
+  var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 6000); 
+}
+  
+</script>
+
+   
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+<script src="../../../../assets/js/vendor/popper.min.js"></script>
+<script src="../../../../dist/js/bootstrap.min.js"></script>
+
+
+<script type="js/script.js"></script>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+<script type="js/script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,208 @@
+.mySlides {display:none;}
+
+
+.logo img{
+  width: 20%;
+  margin: auto;
+  display: block;
+  padding-bottom: 2%;
+
+}
+
+
+.w3-section {
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+.navbar{
+ width: 100%;
+ margin: 0 auto;
+ border-top: 1px solid gray;
+ border-bottom: 1px solid gray;
+ padding-top: 1%;
+
+}
+
+
+.navbar a{ 
+  color: #333333;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 1.5em;
+}
+
+.navbar-nav {
+  margin-left: 6%;
+}
+
+form {
+  margin-right: 6%;
+}
+
+.navbar a:hover{ 
+  color: #9cc7cc;
+
+}
+
+
+.form-inline {
+  font-family: 'Patrick Hand', cursive;
+
+}
+
+
+.form-inline button {
+  font-size: 1.5em;
+}
+
+
+.form-control  {
+  font-size: 1.5em;
+}
+
+
+.btn-outline-success:hover {
+  background-color: #78b4ba;
+  border-color: #9cc7cc;
+}
+
+
+
+.btn-outline-success{
+  background-color: #9cc7cc;
+  border-color: #9cc7cc;
+ color: white;
+}
+
+
+.jumbotron{
+    background-color: white;
+    margin-bottom: 0;
+    width: 100%;
+    background-size: 100%;
+    margin-top: -3%;
+}
+
+.container {
+  width: 85%;
+  margin-top: -2%;
+}
+
+
+.row h2 {
+  font-family: 'Patrick Hand', cursive;
+  font-size: 2em;
+  text-align: center;
+
+}
+
+.row h1 {
+  font-family: 'Patrick Hand', cursive;
+  font-size: 3.5em;
+  text-align: center;
+  padding-bottom: 2%;
+  color: #78b4ba;
+}
+
+.row img {
+  width: 85%;
+  margin: auto;
+  display: block;
+  padding-bottom: 3%;
+}
+
+#uno {
+  margin:0 auto;
+  display: block;
+  width: 40%;
+}
+
+#dos {
+  margin:0 auto;
+  display: block;
+  width: 40%;
+}
+
+#tres {
+  margin:0 auto;
+  display: block;
+  width: 40%;
+}
+
+.btn-secondary {
+  background-color: #9cc7cc;
+  border-color: #9cc7cc;
+  color: white;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 1.5em;
+  }
+
+.btn-secondary:hover{
+  background-color: #78b4ba;
+  border-color: #9cc7cc;
+}
+
+footer {
+  background-color: #9cc7cc;
+  height: 30%;
+}
+
+
+/*botones*/
+
+.botones {
+  text-align: center !important;
+  padding-top: 3%;
+  font-size: 2em;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 70px;
+  text-align: center !important;
+  text-decoration: none;
+  margin: 5px 2px;
+
+}
+
+.fa:hover {
+    text-decoration: none;
+  color: gray;
+}
+
+.fa-facebook {
+  color: white;
+  
+}
+
+.fa-twitter {
+  color: white;
+  
+}
+
+
+.fa-youtube {
+  color: white;
+  
+}
+
+.fa-instagram {
+  color: white;
+  
+}
+
+/* fin botones*/
+
+.containerdos {
+  width: 100%;
+}
+
+footer p {
+  text-align: center;
+  font-family: 'Patrick Hand', cursive;
+  color: white;
+  font-size: 1.2em;
+
+}
+
